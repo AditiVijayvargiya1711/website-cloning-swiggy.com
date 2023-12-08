@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    box-sizing:border-box;
+}
+#first{
+    background: url(background.jpg);
+    background-size: contain;
+    width:100vw;
+    height:38vw;
+
+}
+#first1{
+    background-color: white;
+    width:55vw;
+    height: 38vw;
+    padding-left: 10vw;
+    padding-right: 4vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    line-height: 1.5vw;
+}
+#first11{
+    height:8vw;
+    width:100%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#first111{
+    font-size: 3vw;
+    color:orange;
+    font-weight: bolder;
+}
+#first1121{
+    height:2vw;
+    width:6vw;
+    background-color: white;
+    border:none;
+    font-size: 1vw;
+}
+#first1122{
+    height:2vw;
+    width:6vw;
+    background-color:black;
+    color:white;
+    border:none;
+    font-size: 1vw;
+}
+#first12{
+    font-size: 3vw;
+}
+#first13{
+    font-size: 1.5vw;
+    color:gray;
+}
+#first14{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#first141{
+    width:32vw;
+    height: 3vw;
+    border:1px solid orange;
+    
+}
+#first142{
+    width:8vw;
+    height:3vw;
+    color:white;
+    background-color:orange;
+    font-weight: bolder;
+    font-size: 1.2vw;
+    border:none;
+}
+#first15{
+    color: gray;
+    font-size: 1.2vw;
+}
+.one{
+    display: inline-block;
+    font-size: 1.3vw;
+}
+.two{
+    display:inline-block;
+    color: gray;
+    font-size: 1.3vw;
+}
+#second{
+    width:100vw;
+    height: 30vw;
+    background-color: black;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.seconddiv{
+    width:30vw;
+    height:28vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.secondone{
+    width:15vw;
+    height: 20vw;
+}
+.secondimg{
+    width:15vw;
+    height: 20vw;
+}
+.secondtwo{
+    font-size: 1.5vw;
+    height:2vw;
+    width:20vw;
+}
+.secondthree{
+    width:20vw;
+    height:3vw;
+    font-size: 1vw;
+}
